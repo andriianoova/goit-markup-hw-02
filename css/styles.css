@@ -1,0 +1,143 @@
+:root {
+    --primary-brand-color: #4D5AE5;
+    --pressed-state-color: #404BBF;
+    --light-mode-backgrounds: #F4F4FD;
+    --accent-color: #E7E9FC;
+    --success-color: #31D0AA;
+    --overlays-shadows-headings: #2E2F42;
+    --body-text: #434455;
+    --helper-text: #8E8F99;
+    --hero-bg: #2E2F42;
+
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--body-text);
+}
+
+.list {
+    list-style: none;
+}
+
+
+.logo-text {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--overlays-shadows-headings);
+    text-decoration: none;
+}
+
+.logo-color {
+    color: var(--primary-brand-color);
+}
+
+.menu-link {
+    color: var(--overlays-shadows-headings);
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.menu-link:hover {
+    color: var(--primary-brand-color);
+}
+
+.menu-link:focus {
+    color: var(--primary-brand-color);
+}
+
+.menu-contact-link {
+    text-decoration: none;
+    color: #434455;
+}
+
+.menu-contact-link:hover {
+    color: var(--primary-brand-color);
+}
+
+.menu-contact-link:focus {
+    color: var(--primary-brand-color);
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: var(--hero-bg);
+}
+
+.hero-button {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--primary-brand-color);
+    color: #FFFFFF;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+
+.hero-button:hover {
+    background-color: var(--pressed-state-color);
+}
+
+.hero-button:focus {
+    background-color: var(--pressed-state-color);
+}
+
+
+.team-section-heading,
+.do-section-heading {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.about-list-heading,
+.team-member-name,
+.portfolio-item-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.team-member-card {
+    text-align: center;
+}
+
+.footer-text {
+    color: #FFFFFF;
+    background-color: var(--hero-bg);
+}
+
+.radio-btn {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    font-size: 16px;
+    color: var(--primary-brand-color);
+    background-color: var(--light-mode-backgrounds);
+    cursor: pointer;
+}
+
+.radio-btn:hover {
+    color: #FFFFFF;
+    background-color: var(--pressed-state-color);
+}
+
+.radio-btn:focus {
+    color: #FFFFFF;
+    background-color: var(--pressed-state-color);
+}
